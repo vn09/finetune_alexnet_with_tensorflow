@@ -27,17 +27,17 @@ Configuration Part.
 """
 
 # Path to the textfiles for the trainings and validation set
-train_file = '/home/frederik/fish_data/train.txt'
-val_file = '/home/frederik/fish_data/val.txt'
+train_file = './train.txt'
+val_file = './val.txt'
 
 # Learning params
-learning_rate = 0.01
+learning_rate = 0.0005
 num_epochs = 10
 batch_size = 128
 
 # Network params
 dropout_rate = 0.5
-num_classes = 2
+num_classes = 5
 train_layers = ['fc8', 'fc7', 'fc6']
 
 # How often we want to write the tf.summary data to disk
